@@ -10,9 +10,9 @@ if (!isset($argv[1]) || (isset($argv[2]) && !in_array(strtoupper($argv[2]), ["SM
 $countries = ["MY", "SG", "ID", "TH", "VN", "KH", "PH", "MM"];
 shuffle($countries);
 
-if (function_exists("cli_set_process_title")) cli_set_process_title("GAC Spammer - 0 Hits");
+if (function_exists("cli_set_process_title")) cli_set_process_title("GAC Spammer - 10 Hits");
 
-$i = 0;
+$i = 10;
 while (true) {
 	foreach ($countries as $countryCode) {
 		$success = false;
